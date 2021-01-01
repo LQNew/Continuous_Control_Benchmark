@@ -1,0 +1,46 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            256,
+            256
+        ]
+    },
+    "act_noise":	0.1,
+    "actor_critic":	"mlp_actor_critic",
+    "batch_size":	100,
+    "env_fn":	"<function <lambda> at 0x7f865332ea60>",
+    "epochs":	750,
+    "exp_name":	"ddpg-Humanoid-v2",
+    "gamma":	0.99,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f865332d7b8>":	{
+            "epoch_dict":	{},
+            "exp_name":	"ddpg-Humanoid-v2",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/data/liqing/spinningup/data/ddpg-Humanoid-v2/ddpg-Humanoid-v2_s67",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/data/liqing/spinningup/data/ddpg-Humanoid-v2/ddpg-Humanoid-v2_s67/progress.txt' mode='w' encoding='ANSI_X3.4-1968'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"ddpg-Humanoid-v2",
+        "output_dir":	"/data/liqing/spinningup/data/ddpg-Humanoid-v2/ddpg-Humanoid-v2_s67"
+    },
+    "max_ep_len":	1000,
+    "num_test_episodes":	10,
+    "pi_lr":	0.001,
+    "polyak":	0.995,
+    "q_lr":	0.001,
+    "replay_size":	1000000,
+    "save_freq":	1,
+    "seed":	67,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "update_after":	1000,
+    "update_every":	50
+}
