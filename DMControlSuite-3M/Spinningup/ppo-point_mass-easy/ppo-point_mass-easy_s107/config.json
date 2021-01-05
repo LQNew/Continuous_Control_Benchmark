@@ -1,0 +1,43 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            64,
+            64
+        ]
+    },
+    "actor_critic":	"mlp_actor_critic",
+    "clip_ratio":	0.2,
+    "env_fn":	"<function <lambda> at 0x7f5a4410a9d8>",
+    "epochs":	750,
+    "exp_name":	"ppo-point_mass-easy",
+    "gamma":	0.99,
+    "lam":	0.97,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f5a4905cf60>":	{
+            "epoch_dict":	{},
+            "exp_name":	"ppo-point_mass-easy",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/data/liqing/spinningup/data/ppo-point_mass-easy/ppo-point_mass-easy_s107",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/data/liqing/spinningup/data/ppo-point_mass-easy/ppo-point_mass-easy_s107/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"ppo-point_mass-easy",
+        "output_dir":	"/data/liqing/spinningup/data/ppo-point_mass-easy/ppo-point_mass-easy_s107"
+    },
+    "max_ep_len":	1000,
+    "pi_lr":	0.0003,
+    "save_freq":	10,
+    "seed":	107,
+    "steps_per_epoch":	4000,
+    "target_kl":	0.01,
+    "train_pi_iters":	80,
+    "train_v_iters":	80,
+    "vf_lr":	0.001
+}

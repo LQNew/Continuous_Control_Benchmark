@@ -1,0 +1,45 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            256,
+            256
+        ]
+    },
+    "actor_critic":	"mlp_actor_critic",
+    "alpha":	0.2,
+    "batch_size":	100,
+    "env_fn":	"<function <lambda> at 0x7f22336cc488>",
+    "epochs":	750,
+    "exp_name":	"sac-cartpole-two_poles",
+    "gamma":	0.99,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f22336c1cf8>":	{
+            "epoch_dict":	{},
+            "exp_name":	"sac-cartpole-two_poles",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/share/spinningup/data/sac-cartpole-two_poles/sac-cartpole-two_poles_s101",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/share/spinningup/data/sac-cartpole-two_poles/sac-cartpole-two_poles_s101/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"sac-cartpole-two_poles",
+        "output_dir":	"/share/spinningup/data/sac-cartpole-two_poles/sac-cartpole-two_poles_s101"
+    },
+    "lr":	0.001,
+    "max_ep_len":	1000,
+    "num_test_episodes":	10,
+    "polyak":	0.995,
+    "replay_size":	1000000,
+    "save_freq":	1,
+    "seed":	101,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "update_after":	1000,
+    "update_every":	50
+}
