@@ -1,5 +1,5 @@
-Benchmark data (i.e., DeepMind Control Suite and MuJoCo) for RL.<br>
-All baseline algorithms were running based on: ① [Spinning Up repository](https://github.com/openai/spinningup) / ② [Fujimoto TD3 repository](https://github.com/sfujim/TD3) / ③ My Implementation.<br>
+Benchmark data (i.e., [DeepMind Control Suite](https://arxiv.org/abs/1801.00690) and [MuJoCo](http://www.mujoco.org/index.html)) for RL.<br>
+All baseline algorithms were running based on: ① [Spinning Up repository](https://github.com/openai/spinningup) / ② [Fujimoto TD3 repository](https://github.com/sfujim/TD3) / ③ QingLi Implementation.<br>
 Baseline algorithms are listed as below:
 - [Deep Deterministic Policy Gradients (DDPG)](https://arxiv.org/abs/1509.02971)
 - [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347)
@@ -10,27 +10,36 @@ Baseline algorithms are listed as below:
 #### Usage
 
 ```bash
-python spinupUtils/plot.py [data_dir1] [data_dir2] -l alg1 alg2 -s 10 # `l` denotes labels, and `s` represents smoothing value.
+# eg. Notice: `l` denotes labels, and `s` represents smoothing value.
+python spinupUtils/plot.py \
+    MuJoCo-3M/SpinningUp/DDPG/DDPG-Hopper-v2 \
+    MuJoCo-3M/SpinningUp/PPO/PPO-Hopper-v2 \
+    MuJoCo-3M/SpinningUp/TD3/TD3-Hopper-v2 \
+    MuJoCo-3M/SpinningUp/SAC/SAC-Hopper-v2 \
+    --env Hopper-v2 \
+    -l DDPG PPO TD3 SAC -s 10
 ```
-#### MuJoCo-3M
-Including Ant-v2, HalfCheetah-v2, Hopper-v2, Humanoid-v2, Swimmer-v2, Walker2d-v2.
+<br>
 
-- Spinning Up Implementation
+## MuJoCo-3M
+Including `Ant-v2`, `HalfCheetah-v2`, `Hopper-v2`, `Humanoid-v2`, `Swimmer-v2`, `Walker2d-v2`.
+
+- [Spinning Up repository](https://github.com/openai/spinningup)
 <img src="images/spinup-MuJoCo.png" width="1000" align="middle"/>
 
-- My Implementation
-<img src="images/lq-MuJoCo.png" width="1000" align="middle"/>
+- QingLi Implementation
+<img src="images/QingLi-MuJoCo.png" width="1000" align="middle"/>
+<br>
+## MuJoCo-1M
+Including `Ant-v2`, `HalfCheetah-v2`, `Hopper-v2`, `Humanoid-v2`, `Swimmer-v2`, `Walker2d-v2`.
 
-#### MuJoCo-1M
-Including Ant-v2, HalfCheetah-v2, Hopper-v2, Humanoid-v2, Swimmer-v2, Walker2d-v2.
+- [Fujimoto TD3 repository](https://github.com/sfujim/TD3)
+<img src="images/Fujimoto-MuJoCo.png" width="1000" align="middle"/>
+<br>
+## DMControlSuite-3M
+Including `acrobot-swingup`, `ball_in_cup-catch`, `cartpole-swingup`, `cartpole-swingup_sparse`, `cartpole-three_poles`, `cartpole-two_poles`, `cheetah-run, finger-spin`, `finger-spin`, `finger-turn_easy`, `finger-turn_hard`, `fish-swim`, `hopper-hop, hopper-stand`, `humanoid-run`, `humanoid-run_pure_state`, `humanoid-stand`, `pendulum-swingup`, `point_mass-easy`, `point_mass-hard`, `quadruped-fetch`, `quadruped-run`, `quadruped-walk`, `swimmer-swimmer6`, `swimmer-swimmer15`, `walker-run`.
 
-- Fujimoto TD3
-<img src="images/fujimoto-MuJoCo.png" width="1000" align="middle"/>
-
-#### DMC-3M
-Including Ant-v2, HalfCheetah-v2, Hopper-v2, Humanoid-v2, Swimmer-v2, Walker2d-v2.
-
-- Spinning Up Implementation
+- [Spinning Up repository](https://github.com/openai/spinningup)
 <img src="images/spinup-DMC-part0.png" width="1000" align="middle"/>
 <img src="images/spinup-DMC-part1.png" width="1000" align="middle"/>
 
