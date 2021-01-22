@@ -12,4 +12,10 @@ Baseline algorithms are listed as below:
 ```bash
 python spinupUtils/plot.py [data_dir1] [data_dir2] -l alg1 alg2 -s 10 # `l` denotes labels, and `s` represents smoothing value.
 ```
+#### MuJoCo-3M
+Including Ant-v2, HalfCheetah-v2, Hopper-v2, Humanoid-v2, Swimmer-v2, Walker2d-v2.
+
+- Spinning Up Implementation
+<img src="images/spinup-MuJoCo.png" width="1000" align="middle"/>
+
 
