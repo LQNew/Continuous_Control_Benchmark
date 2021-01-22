@@ -20,6 +20,7 @@ python spinupUtils/plot.py \
     -l DDPG PPO TD3 SAC -s 10
 ```
 <br>
+
 ## MuJoCo-3M
 Including `Ant-v2`, `HalfCheetah-v2`, `Hopper-v2`, `Humanoid-v2`, `Swimmer-v2`, `Walker2d-v2`.
 
@@ -29,12 +30,14 @@ Including `Ant-v2`, `HalfCheetah-v2`, `Hopper-v2`, `Humanoid-v2`, `Swimmer-v2`, 
 - QingLi Implementation
 <img src="images/QingLi-MuJoCo.png" width="1000" align="middle"/>
 <br>
+
 ## MuJoCo-1M
 Including `Ant-v2`, `HalfCheetah-v2`, `Hopper-v2`, `Humanoid-v2`, `Swimmer-v2`, `Walker2d-v2`.
 
 - [Fujimoto TD3 repository](https://github.com/sfujim/TD3)
 <img src="images/Fujimoto-MuJoCo.png" width="1000" align="middle"/>
 <br>
+
 ## DMControlSuite-3M
 Including `acrobot-swingup`, `ball_in_cup-catch`, `cartpole-swingup`, `cartpole-swingup_sparse`, `cartpole-three_poles`, `cartpole-two_poles`, `cheetah-run, finger-spin`, `finger-spin`, `finger-turn_easy`, `finger-turn_hard`, `fish-swim`, `hopper-hop, hopper-stand`, `humanoid-run`, `humanoid-run_pure_state`, `humanoid-stand`, `pendulum-swingup`, `point_mass-easy`, `point_mass-hard`, `quadruped-fetch`, `quadruped-run`, `quadruped-walk`, `swimmer-swimmer6`, `swimmer-swimmer15`, `walker-run`.
 
