@@ -46,11 +46,11 @@ Including `acrobot-swingup`, `ball_in_cup-catch`, `cartpole-swingup`, `cartpole-
 <img src="images/spinup-DMC-part1.png" width="1000" align="middle"/>
 <br>
 
-#### citation
+### citation
 ```bash
 @misc{QingLi2021continuousbenchmark,
   author = {Qing Li},
-  title = {Continuous Control Benchmark of MuJoCo and DeepMind Control Suite},
+  title = {Continuous Control Benchmark of DeepMind Control Suite and MuJoCo},
   year = {2021},
   publisher = {GitHub},
   journal = {GitHub repository},
