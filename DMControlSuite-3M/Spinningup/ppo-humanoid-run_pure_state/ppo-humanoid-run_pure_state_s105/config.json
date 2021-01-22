@@ -1,0 +1,43 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            64,
+            64
+        ]
+    },
+    "actor_critic":	"mlp_actor_critic",
+    "clip_ratio":	0.2,
+    "env_fn":	"<function <lambda> at 0x7f420f8a3ae8>",
+    "epochs":	750,
+    "exp_name":	"ppo-humanoid-run_pure_state",
+    "gamma":	0.99,
+    "lam":	0.97,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f420f900c50>":	{
+            "epoch_dict":	{},
+            "exp_name":	"ppo-humanoid-run_pure_state",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/share/spinningup/data/ppo-humanoid-run_pure_state/ppo-humanoid-run_pure_state_s105",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/share/spinningup/data/ppo-humanoid-run_pure_state/ppo-humanoid-run_pure_state_s105/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"ppo-humanoid-run_pure_state",
+        "output_dir":	"/share/spinningup/data/ppo-humanoid-run_pure_state/ppo-humanoid-run_pure_state_s105"
+    },
+    "max_ep_len":	1000,
+    "pi_lr":	0.0003,
+    "save_freq":	10,
+    "seed":	105,
+    "steps_per_epoch":	4000,
+    "target_kl":	0.01,
+    "train_pi_iters":	80,
+    "train_v_iters":	80,
+    "vf_lr":	0.001
+}

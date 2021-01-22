@@ -1,0 +1,45 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            256,
+            256
+        ]
+    },
+    "actor_critic":	"mlp_actor_critic",
+    "alpha":	0.2,
+    "batch_size":	100,
+    "env_fn":	"<function <lambda> at 0x7f90547569d8>",
+    "epochs":	750,
+    "exp_name":	"sac-cartpole-swingup_sparse",
+    "gamma":	0.99,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f905474cda0>":	{
+            "epoch_dict":	{},
+            "exp_name":	"sac-cartpole-swingup_sparse",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/share/Server/Reinforement_Learning/spinningup/data/sac-cartpole-swingup_sparse/sac-cartpole-swingup_sparse_s106",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/share/Server/Reinforement_Learning/spinningup/data/sac-cartpole-swingup_sparse/sac-cartpole-swingup_sparse_s106/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"sac-cartpole-swingup_sparse",
+        "output_dir":	"/share/Server/Reinforement_Learning/spinningup/data/sac-cartpole-swingup_sparse/sac-cartpole-swingup_sparse_s106"
+    },
+    "lr":	0.001,
+    "max_ep_len":	1000,
+    "num_test_episodes":	10,
+    "polyak":	0.995,
+    "replay_size":	1000000,
+    "save_freq":	1,
+    "seed":	106,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "update_after":	1000,
+    "update_every":	50
+}
