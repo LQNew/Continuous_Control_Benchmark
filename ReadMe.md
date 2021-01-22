@@ -18,4 +18,19 @@ Including Ant-v2, HalfCheetah-v2, Hopper-v2, Humanoid-v2, Swimmer-v2, Walker2d-v
 - Spinning Up Implementation
 <img src="images/spinup-MuJoCo.png" width="1000" align="middle"/>
 
+- My Implementation
+<img src="images/lq-MuJoCo.png" width="1000" align="middle"/>
+
+#### MuJoCo-1M
+Including Ant-v2, HalfCheetah-v2, Hopper-v2, Humanoid-v2, Swimmer-v2, Walker2d-v2.
+
+- Fujimoto TD3
+<img src="images/fujimoto-MuJoCo.png" width="1000" align="middle"/>
+
+#### DMC-3M
+Including Ant-v2, HalfCheetah-v2, Hopper-v2, Humanoid-v2, Swimmer-v2, Walker2d-v2.
+
+- Spinning Up Implementation
+<img src="images/spinup-DMC-part0.png" width="1000" align="middle"/>
+<img src="images/spinup-DMC-part1.png" width="1000" align="middle"/>
 
