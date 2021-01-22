@@ -2,3 +2,4 @@ tf1_save/
 *.pkl
 *.pb
 __pycache__/
+tmp*
