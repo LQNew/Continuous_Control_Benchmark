@@ -1,5 +1,5 @@
 Benchmark data (i.e., [DeepMind Control Suite](https://arxiv.org/abs/1801.00690) and [MuJoCo](http://www.mujoco.org/index.html)) for RL.<br>
-All baseline algorithms were running based on the code repository from: ① [Spinning Up repository](https://github.com/openai/spinningup) / ② [Fujimoto TD3 repository](https://github.com/sfujim/TD3) / ③ QingLi Implementation.<br>
+All baseline algorithms are running based on the code repository from: ① [Spinning Up repository](https://github.com/openai/spinningup) / ② [Fujimoto TD3 repository](https://github.com/sfujim/TD3) / ③ QingLi Implementation.<br>
 Baseline algorithms are listed as below:
 - [Deep Deterministic Policy Gradients (DDPG)](https://arxiv.org/abs/1509.02971)
 - [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347)
