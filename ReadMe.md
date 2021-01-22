@@ -7,7 +7,7 @@ Baseline algorithms are listed as below:
 - [Twin Delayed Deep Deterministic Policy Gradients (TD3)](https://arxiv.org/abs/1802.09477)
 
 
-#### Usage
+#### Plot results
 
 ```bash
 # eg. Notice: `l` denotes labels, and `s` represents smoothing value.
@@ -24,24 +24,36 @@ python spinupUtils/plot.py \
 ## MuJoCo-3M
 Including `Ant-v2`, `HalfCheetah-v2`, `Hopper-v2`, `Humanoid-v2`, `Swimmer-v2`, `Walker2d-v2`.
 
-- Baseline algorithms are from [Spinning Up repository](https://github.com/openai/spinningup)
+- Code of baseline algorithms are from [Spinning Up repository](https://github.com/openai/spinningup)
 <img src="images/spinup-MuJoCo.png" width="1000" align="middle"/>
 
-- Baseline algorithms are from QingLi Implementation
+- Code of baseline algorithms are from QingLi Implementation
 <img src="images/QingLi-MuJoCo.png" width="1000" align="middle"/>
 <br>
 
 ## MuJoCo-1M
 Including `Ant-v2`, `HalfCheetah-v2`, `Hopper-v2`, `Humanoid-v2`, `Swimmer-v2`, `Walker2d-v2`.
 
-- Baseline algorithms are from [Fujimoto TD3 repository](https://github.com/sfujim/TD3)
+- Code of baseline algorithms are from [Fujimoto TD3 repository](https://github.com/sfujim/TD3)
 <img src="images/Fujimoto-MuJoCo.png" width="1000" align="middle"/>
 <br>
 
 ## DMControlSuite-3M
 Including `acrobot-swingup`, `ball_in_cup-catch`, `cartpole-swingup`, `cartpole-swingup_sparse`, `cartpole-three_poles`, `cartpole-two_poles`, `cheetah-run, finger-spin`, `finger-spin`, `finger-turn_easy`, `finger-turn_hard`, `fish-swim`, `hopper-hop, hopper-stand`, `humanoid-run`, `humanoid-run_pure_state`, `humanoid-stand`, `pendulum-swingup`, `point_mass-easy`, `point_mass-hard`, `quadruped-fetch`, `quadruped-run`, `quadruped-walk`, `swimmer-swimmer6`, `swimmer-swimmer15`, `walker-run`.
 
-- Baseline algorithms are from [Spinning Up repository](https://github.com/openai/spinningup)
+- Code of baseline algorithms are from [Spinning Up repository](https://github.com/openai/spinningup)
 <img src="images/spinup-DMC-part0.png" width="1000" align="middle"/>
 <img src="images/spinup-DMC-part1.png" width="1000" align="middle"/>
+<br>
 
+#### citation
+```bash
+@misc{QingLi2021continuousbenchmark,
+  author = {Qing Li},
+  title = {Continuous Control Benchmark of MuJoCo and DeepMind Control Suite},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/LQNew/Continuous_Control_Benchmark}}
+}
+```
