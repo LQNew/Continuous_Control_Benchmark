@@ -1,5 +1,5 @@
 Benchmark data (i.e., [DeepMind Control Suite](https://arxiv.org/abs/1801.00690) and [MuJoCo](http://www.mujoco.org/index.html)) for RL.<br>
-All baseline algorithms are running based on the code repository from: ① [Spinning Up repository](https://github.com/openai/spinningup) / ② [Fujimoto TD3 repository](https://github.com/sfujim/TD3) / ③ QingLi Implementation.<br>
+All baseline algorithms are running based on the code repository from: ① [Spinning Up repository](https://github.com/openai/spinningup) / ② [Fujimoto TD3 repository](https://github.com/sfujim/TD3) / ③ [QingLi Implementation](https://github.com/LQNew/LWDRL).<br>
 Baseline algorithms are listed as below:
 - [Deep Deterministic Policy Gradients (DDPG)](https://arxiv.org/abs/1509.02971)
 - [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347)
@@ -25,7 +25,7 @@ Including `Ant-v2`, `HalfCheetah-v2`, `Hopper-v2`, `Humanoid-v2`, `Swimmer-v2`, 
 - Code of baseline algorithms is from [Spinning Up repository](https://github.com/openai/spinningup), the agents are running for 3 million time steps.
 <img src="images/spinup-MuJoCo.png" width="1000" align="middle"/>
 
-- Code of baseline algorithms is from QingLi Implementation, the agents are running for 3 million time steps.
+- Code of baseline algorithms is from [QingLi Implementation](https://github.com/LQNew/LWDRL), the agents are running for 3 million time steps.
 <img src="images/QingLi-MuJoCo.png" width="1000" align="middle"/>
 
 ## MuJoCo-1M
